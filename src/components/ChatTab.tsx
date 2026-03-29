@@ -52,8 +52,8 @@ export default function ChatTab() {
   };
 
   return (
-    <div className="flex flex-col h-full bg-gray-50 pb-20">
-      <div className="bg-white p-4 shadow-sm z-10 flex items-center space-x-3">
+    <div className="flex flex-col h-full bg-[#F8FAFC] pb-20">
+      <div className="bg-white/90 backdrop-blur-xl p-4 shadow-sm z-10 flex items-center space-x-3 sticky top-0 border-b border-gray-200/50">
         <div className="bg-blue-100 p-2 rounded-full">
           <Bot className="w-6 h-6 text-blue-600" />
         </div>

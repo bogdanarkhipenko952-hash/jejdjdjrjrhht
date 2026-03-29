@@ -91,7 +91,8 @@ export default function SubscriptionModal({ isOpen, onClose, onSubscribe, curren
     
     try {
       // Вызываем наш бэкенд для создания платежа в ЮMoney
-      const response = await fetch('/api/payments/create', {
+      const baseUrl = process.env.APP_URL || '';
+      const response = await fetch(`${baseUrl}/api/payments/create`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

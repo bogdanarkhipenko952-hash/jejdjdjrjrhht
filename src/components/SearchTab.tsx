@@ -115,8 +115,8 @@ export default function SearchTab({ onOpenSubscription, subscription }: { onOpen
   };
 
   return (
-    <div className="flex flex-col h-full overflow-y-auto pb-20 bg-gray-50">
-      <div className="bg-gradient-to-b from-white to-gray-50 p-5 rounded-b-[2.5rem] shadow-sm z-10 border-b border-gray-100">
+    <div className="flex flex-col h-full overflow-y-auto pb-24 bg-[#F8FAFC]">
+      <div className="bg-white/90 backdrop-blur-xl p-5 rounded-b-[2.5rem] shadow-sm z-10 border-b border-gray-200/50">
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-2xl font-black text-gray-900 tracking-tight">Поиск заказов</h2>
           {subscription === 'free' ? (

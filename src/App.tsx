@@ -35,7 +35,7 @@ export default function App() {
   };
 
   return (
-    <div className="flex flex-col h-screen bg-gray-100 text-gray-900 font-sans max-w-md mx-auto shadow-2xl relative overflow-hidden sm:border-x sm:border-gray-200">
+    <div className="flex flex-col h-screen bg-[#F8FAFC] text-gray-900 font-sans max-w-md mx-auto shadow-2xl relative overflow-hidden sm:border-x sm:border-gray-200">
       
       {/* Main Content Area */}
       <div className="flex-1 overflow-hidden">
@@ -57,7 +57,7 @@ export default function App() {
       />
 
       {/* Bottom Navigation */}
-      <div className="absolute bottom-0 w-full bg-white border-t border-gray-100 px-6 py-3 flex justify-between items-center z-50 pb-safe">
+      <div className="absolute bottom-0 w-full bg-white/90 backdrop-blur-xl border-t border-gray-200/50 px-6 py-3 flex justify-between items-center z-50 pb-safe shadow-[0_-10px_40px_rgba(0,0,0,0.05)]">
         <button 
           onClick={() => setActiveTab('search')}
           className={`flex flex-col items-center space-y-1 transition-all duration-300 ${activeTab === 'search' ? 'text-blue-600 scale-110' : 'text-gray-400 hover:text-gray-600'}`}
