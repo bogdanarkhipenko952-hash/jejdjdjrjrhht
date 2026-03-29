@@ -1,0 +1,5 @@
+{
+  "name": "Remix: GigHunter AI",
+  "description": "Платформа для поиска свежих разовых заказов в Telegram с помощью нейросетей.",
+  "requestFramePermissions": []
+}
